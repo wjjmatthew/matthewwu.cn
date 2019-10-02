@@ -8,13 +8,98 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 10em;
+  font-size: 2.5em;
 }
 
-.food{
-  list-style-image: url('img/icon/food.png');
+.day{
+  font-size: 2em;
+}
+.food, .flag, .hotel, .plane, .shopping, .travel{
+  list-style: none;
+  text-indent: 1em;
+  position:relative;
 }
 
-.flag{
-  list-style-image: url('img/icon/flag.png');
+.food:before{
+   position:absolute;
+   left:-2em;
+   content: "";
+   display: inline-block;
+   height: 1em;
+   width: 1em;
+   padding-top: 0.3em;
+   background-image: url('img/icon/food.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain;
+}
+
+.flag:before{
+   position:absolute;
+   left:-2em;
+   content: "";
+   display: inline-block;
+   height: 1em;
+   width: 1em;
+   padding-top: 0.3em;
+   background-image: url('img/icon/flag.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain;
+}
+
+.hotel:before{
+   position:absolute;
+   left:-2em;
+   content: "";
+   display: inline-block;
+   height: 1em;
+   width: 1em;
+   padding-top: 0.3em;
+   background-image: url('img/icon/hotel.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain;
+}
+
+.plane:before{
+   position:absolute;
+   left:-2em;
+   content: "";
+   display: inline-block;
+   height: 1em;
+   width: 1em;
+   padding-top: 0.3em;
+   background-image: url('img/icon/plane.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain;
+}
+
+.shopping:before{
+   position:absolute;
+   left:-2em;
+   content: "";
+   display: inline-block;
+   height: 1em;
+   width: 1em;
+   padding-top: 0.3em;
+   background-image: url('img/icon/shopping.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain;
+}
+
+.travel:before{
+   position:absolute;
+   left:-2em;
+   content: "";
+   display: inline-block;
+   height: 1em;
+   width: 1em;
+   padding-top: 0.3em;
+   background-image: url('img/icon/travel.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain;
 }
