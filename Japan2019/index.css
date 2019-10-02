@@ -1,0 +1,20 @@
+#titlediv{
+  position: relative
+  text-align: center;
+}
+#splash-heading{
+  position: absolute;
+  top: 18vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 10em;
+}
+
+.food{
+  list-style-image: url('img/icon/food.png');
+}
+
+.flag{
+  list-style-image: url('img/icon/flag.png');
+}
