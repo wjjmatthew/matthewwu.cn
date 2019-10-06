@@ -35,18 +35,15 @@
   border-radius: 10px;
   text-align: center;
 }
-.dbuttontextcontainer{
+.dbuttontext{
   position: relative;
+  color: white;
   text-align: center;
   vertical-align: middle;
   margin: 0px;
   padding: 0px;
   top: 50%;
   transform: translate(0,-50%);
-}
-.dbuttontext{
-  color: white;
-  text-decoration-line: none;
 }
 .dbutton-seperator{
   float:left;
