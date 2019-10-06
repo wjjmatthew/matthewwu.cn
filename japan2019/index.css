@@ -22,8 +22,10 @@
 #dayselection{
   padding: 10px;
   position: relative;
+  height: auto;
 }
 #seperator-row{
+  padding-top: 50px;
   width: 100%;
   height: 20px;
   float: none;
