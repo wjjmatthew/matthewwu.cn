@@ -5,618 +5,681 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
   <title>Japan 行程 2019</title>
 </head>
-<body>
-  <div id="titlediv">
-    <img src="img/splash.jpg" width=100%></img>
-    <h1 id="splash-heading">日本 2019</h1>
-  </div>
-  <div id="dayselection">
-    <a class="daybuttona" href="#d3">
-      <div class="dbutton" id="d3button" onclick="href=#3">
-        <p class="dbuttontextcontainer">
-          <a class="dbuttontext" href="#d3">第三天</a>
-        </p>
+<body id="body">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <div id="splash">
+      <div id="titlediv">
+        <p id="title">日本 2019</p>
       </div>
-    </a>
-    <div class=dbutton-seperator></div>
-    <a class="daybuttona" href="#d4">
-      <div class="dbutton" id="d4button">
-        <p class="dbuttontextcontainer">
-          <a class="dbuttontext" href="#d4">第四天</a>
-        </p>
-      </div>
-    </a>
+      <div id="splash-day-selection">
+        <p id="day-selection-text">请选择日期</p>
+        <div id="day-button-container">
+          <div id="day-buttons">
+            <div class="day-buttons-row">
+              <div class="day-button-splash" id="day-3-button">
+                  <p class="dbuttontext">第三天</p>
+              </div>
+              <div class="day-button-splash-seperator"></div>
+              <div class="day-button-splash" id="day-4-button">
+                <p class="dbuttontext">第四天</p>
+              </div>
+            </div>
+            <div class="day-buttons-row">
+              <div class="day-button-splash" id="day-5-button">
+                <p class="dbuttontext">第五天</p>
+              </div>
+              <div class="day-button-splash-seperator"></div>
+              <div class="day-button-splash" id="day-6-button">
+                <p class="dbuttontext">第六天</p>
+              </div>
+            </div>
+            <div class="day-buttons-row">
+              <div class="day-button-splash" id="day-7-button">
+                <p class="dbuttontext">第七天</p>
+              </div>
+              <div class="day-button-splash-seperator"></div>
+              <div class="day-button-splash" id="day-8-button">
+                <p class="dbuttontext">第八天</p>
+              </div>
+            </div>
+            <div class="day-buttons-row">
+              <div class="day-button-splash" id="day-9-button">
+                <p class="dbuttontext">第九天</p>
+              </div>
+              <div class="day-button-splash-seperator"></div>
+              <div class="day-button-splash" id="day-10-button">
+                <p class="dbuttontext">第十天</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="bottom-div">
+      <p class="bottom-div-text">网站：Matthew Wu</p>
+      <p class="bottom-div-text">www.matthewwu.cn/japan2019</p>
+    </div
 
-    <div class=dbutton-seperator></div>
-    <a class="daybuttona" href="#d5">
-      <div class="dbutton" id="d5button">
-        <p class="dbuttontextcontainer">
-          <a class="dbuttontext" href="#d5">第五天</a>
-        </p>
-      </div>
-    </a>
 
-    <div class=dbutton-seperator></div>
-    <a class="daybuttona" href="#d6">
-      <div class="dbutton" id="d6button" href="#d6">
-        <p class="dbuttontextcontainer">
-          <a class="dbuttontext" href="#d6">第六天</a>
-        </p>
-      </div>
-    </a>
-
-    <div class=dbutton-seperator></div>
-    <a class="daybuttona" href="#d7">
-      <div class="dbutton" id="d7button" href="#d7">
-        <p class="dbuttontextcontainer">
-          <a class="dbuttontext" href="#d7">第七天</a>
-        </p>
-      </div>
-    </a>
-
-    <div class=dbutton-seperator></div>
-    <a class="daybuttona" href="#d8">
-      <div class="dbutton" id="d8button" href="#d8">
-        <p class="dbuttontextcontainer">
-          <a class="dbuttontext" href="#d8">第八天</a>
-        </p>
-      </div>
-    </a>
-  </div>
-
-  <div id="seperator-row"></div>
-  <a name="d3"></a>
-  <div class="dcontainer">
-    <p class="day">D3 - Mt Fuji 富士山</p>
-    <ul>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>9:00 · Travel · 旅行</p>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>11:30 · Lake Kawaguchi · 河口湖</p>
-            <img src="img/d3/lakekawaguchi.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>12:30 · Travel · 旅行</p>
-          </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>1:30 · Lunch · 午饭</p>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>2:30 · Mt Fuji 5th Station · 富士山五合目</p>
-            <img src="img/d3/mtfuji5thstation.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>3:00 · Travel · 旅行</p>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>5:00 · Oshini Hakkai and Oshino Eight Seas· 忍野八海</p>
-            <img src="img/d3/oshinohakkai.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>6:00 · Travel · 旅行<p>
-          </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:30 · Dinner · 晚饭<p>
-          </div>
-        </div>
-      </li>
-    </ul>
+    <script src="script.js"></script>
   </div>
 
-  <a id="d4"></a>
-  <div class="dcontainer">
-    <p class="day">D4 - Tokyo Disneyland 东京迪士尼乐园</p>
-  -->  <div>
-      <div id="linea">
-      </div>
+
+
+  <div id="mainpage">
+    <script>
+    document.getElementById("mainpage").style.display = "none";
+    </script>
+    <div id="titlediv">
+      <img src="img/splash.jpg" width=100%></img>
+      <h1 id="splash-heading">日本 2019</h1>
+    </div>
+    <div id="dayselection">
+      <a class="daybuttona" href="#d3">
+        <div class="dbutton" id="d3button" onclick="href=#3">
+          <p class="dbuttontextcontainer">
+            <a class="dbuttontext" href="#d3">第三天</a>
+          </p>
+        </div>
+      </a>
+      <div class=dbutton-seperator></div>
+      <a class="daybuttona" href="#d4">
+        <div class="dbutton" id="d4button">
+          <p class="dbuttontextcontainer">
+            <a class="dbuttontext" href="#d4">第四天</a>
+          </p>
+        </div>
+      </a>
+
+      <div class=dbutton-seperator></div>
+      <a class="daybuttona" href="#d5">
+        <div class="dbutton" id="d5button">
+          <p class="dbuttontextcontainer">
+            <a class="dbuttontext" href="#d5">第五天</a>
+          </p>
+        </div>
+      </a>
+
+      <div class=dbutton-seperator></div>
+      <a class="daybuttona" href="#d6">
+        <div class="dbutton" id="d6button" href="#d6">
+          <p class="dbuttontextcontainer">
+            <a class="dbuttontext" href="#d6">第六天</a>
+          </p>
+        </div>
+      </a>
+
+      <div class=dbutton-seperator></div>
+      <a class="daybuttona" href="#d7">
+        <div class="dbutton" id="d7button" href="#d7">
+          <p class="dbuttontextcontainer">
+            <a class="dbuttontext" href="#d7">第七天</a>
+          </p>
+        </div>
+      </a>
+
+      <div class=dbutton-seperator></div>
+      <a class="daybuttona" href="#d8">
+        <div class="dbutton" id="d8button" href="#d8">
+          <p class="dbuttontextcontainer">
+            <a class="dbuttontext" href="#d8">第八天</a>
+          </p>
+        </div>
+      </a>
     </div>
 
-    <ul>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:00 · Travel · 旅行</p>
+    <div id="seperator-row"></div>
+    <a name="d3"></a>
+    <div class="dcontainer">
+      <p class="day">D3 - Mt Fuji 富士山</p>
+      <ul>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>9:00 · Travel · 旅行</p>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:15 · Harajuku · 原宿</p>
-            <img src="img/d4/harajuku.jpg" width=100%></img>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>11:30 · Lake Kawaguchi · 河口湖</p>
+              <img src="img/d3/lakekawaguchi.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>9:45 · Travel · 旅行</p>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>12:30 · Travel · 旅行</p>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>10:25 · Akihabara · 秋葉原</p>
-            <img src="img/d4/akihabara.jpg" width=100%></img>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>1:30 · Lunch · 午饭</p>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>12:00 · Lunch · 午饭</p>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>2:30 · Mt Fuji 5th Station · 富士山五合目</p>
+              <img src="img/d3/mtfuji5thstation.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>3:00 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>5:00 · Oshini Hakkai and Oshino Eight Seas· 忍野八海</p>
+              <img src="img/d3/oshinohakkai.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:00 · Travel · 旅行<p>
+            </div>
+          </div>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:30 · Dinner · 晚饭<p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-          </div>
+    <a id="d4"></a>
+    <div class="dcontainer">
+      <p class="day">D4 - Tokyo Disneyland 东京迪士尼乐园</p>
+    -->  <div>
+        <div id="linea">
         </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>1:30 · Odaiba · 台场</p>
-            <img src="img/d4/odaiba.jpeg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>Rainbow Bridge · 彩虹大桥</p>
-            <img src="img/d4/rainbowbridge.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>Tokyo Bay · 东京湾</p>
-            <img src="img/d4/tokyobay.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>Waterbus · 水上巴士</p>
-            <img src="img/d4/waterbus.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>Odaiba Ferris Wheel · 公告城大摩天轮</p>
-            <img src="img/d4/odaibaferriswheel.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <div>
       </div>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>2:30 · Disneyland· 东京迪士尼乐园</p>
-            <img src="img/d4/disneyl.jpeg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <!--
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>6:00 · Travel · 旅行<p>
-          </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:30 · Dinner · 晚饭<p>
-          </div>
-        </div>
-      </li>
-    -->
-    </ul>
-  </div>
 
-  <a name="d5"></a>
-  <div class="dcontainer">
-    <p class="day">D5 - Tokyo 东京</p>
-    <ul>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>9:30 · Travel · 旅行</p>
+      <ul>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:00 · Travel · 旅行</p>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>10:00 · Ginza · 銀座</p>
-            <img src="img/d5/ginza.jpg" width=100%></img>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:15 · Harajuku · 原宿</p>
+              <img src="img/d4/harajuku.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>12:00 · Lunch · 午饭</p>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>9:45 · Travel · 旅行</p>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>1:30 · Travel · 旅行</p>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>10:25 · Akihabara · 秋葉原</p>
+              <img src="img/d4/akihabara.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>12:00 · Lunch · 午饭</p>
 
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>2:00 · Imperial Palace · 皇居</p>
-            <img src="img/d5/imperial.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>3:30 · Travel · 旅行</p>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>1:30 · Odaiba · 台场</p>
+              <img src="img/d4/odaiba.jpeg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>4:00 · Tokyo Tower · 东京塔</p>
-            <img src="img/d5/tokyotower.jpg" width=100%></img>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>Rainbow Bridge · 彩虹大桥</p>
+              <img src="img/d4/rainbowbridge.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>6:00 · Travel · 旅行<p>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>Tokyo Bay · 东京湾</p>
+              <img src="img/d4/tokyobay.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:30 · Dinner · 晚饭<p>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>Waterbus · 水上巴士</p>
+              <img src="img/d4/waterbus.jpg" width=100%></img>
+            </div>
           </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>Odaiba Ferris Wheel · 公告城大摩天轮</p>
+              <img src="img/d4/odaibaferriswheel.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <div>
         </div>
-      </li>
-    </ul>
-  </div>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>2:30 · Disneyland· 东京迪士尼乐园</p>
+              <img src="img/d4/disneyl.jpeg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <!--
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:00 · Travel · 旅行<p>
+            </div>
+          </div>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:30 · Dinner · 晚饭<p>
+            </div>
+          </div>
+        </li>
+      -->
+      </ul>
+    </div>
 
-  <a name="d6"></a>
-  <div class="dcontainer">
-    <p class="day">D6 - Tokyo and Osaka 东京和大阪</p>
-    <ul>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>11:00 · Travel · 旅行</p>
-            <img src="img/d6/shinkansen.jpg" width=100%></img>
+    <a name="d5"></a>
+    <div class="dcontainer">
+      <p class="day">D5 - Tokyo 东京</p>
+      <ul>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>9:30 · Travel · 旅行</p>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="hotel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>5:00 · Apartment · 住处</p>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>10:00 · Ginza · 銀座</p>
+              <img src="img/d5/ginza.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>6:00 · Travel · 旅行</p>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>12:00 · Lunch · 午饭</p>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>6:15 · Shitennoji Temple · 四天王寺</p>
-            <img src="img/d6/shitennoji.jpg" width=100%></img>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>1:30 · Travel · 旅行</p>
+            </div>
           </div>
-        </div>
-      </li>
+        </li>
 
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>7:00 · Travel · </p>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>7:15 · New World · 新世界</p>
-            <img src="img/d6/newworld.jpg" width=100%></img>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>2:00 · Imperial Palace · 皇居</p>
+              <img src="img/d5/imperial.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:00 · Travel · 旅行</p>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>3:30 · Travel · 旅行</p>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:15 · Dotonbori · 道顿堀<p>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>4:00 · Tokyo Tower · 东京塔</p>
+              <img src="img/d5/tokyotower.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:00 · Travel · 旅行<p>
+            </div>
+          </div>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:30 · Dinner · 晚饭<p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <a name="d6"></a>
+    <div class="dcontainer">
+      <p class="day">D6 - Tokyo and Osaka 东京和大阪</p>
+      <ul>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>11:00 · Travel · 旅行</p>
+              <img src="img/d6/shinkansen.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="hotel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>5:00 · Apartment · 住处</p>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:00 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:15 · Shitennoji Temple · 四天王寺</p>
+              <img src="img/d6/shitennoji.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>7:00 · Travel · </p>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>7:15 · New World · 新世界</p>
+              <img src="img/d6/newworld.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:00 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:15 · Dotonbori · 道顿堀<p>
+                <img src="img/d6/dotonbori.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:15 · Dinner · 晚饭<p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+    <a name="d7"></a>
+    <div class="dcontainer">
+      <p class="day">D7 - Osaka 大阪</p>
+      <img src="img/d7/weather.jpeg" width=100%></img>
+      <ul>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>10:00 · Breakfast · 早餐</p>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>11:00 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>11:30 · Osaka Castle · 大阪城</p>
+              <img src="img/d7/osakacastle.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>12:30 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>1:00 · Shitennoji · 四天王寺</p>
+              <img src="img/d6/shitennoji.jpg" width=100%></img>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>2:00 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>2:45 · Universal Studios · 日本环球影城</p>
+              <img src="img/d7/universal.jpeg" width=100%></img>
+            </div>
+            <div class="acontainer">
+              <p>       Tempozan Giant Ferris Wheel · 日本环球影城</p>
+              <img src="img/d7/tempozan.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:30 · Travel · 旅行<p>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>7:15 · Dotonbori · 道顿堀<p>
               <img src="img/d6/dotonbori.jpg" width=100%></img>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:15 · Dinner · 晚饭<p>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>7:15 · Dinner · 晚饭<p>
+            </div>
           </div>
-        </div>
-      </li>
-    </ul>
+        </li>
+        <li class="hotel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>9:00 · Apartment · 住处<p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <a name="d8"></a>
+    <div class="dcontainer">
+      <p class="day">D8 - Kyoto and Nagoya 京都和名古屋</p>
+      <ul>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>10:00 · Breakfast · 早餐</p>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>11:00 · Travel · 旅行</p>
+              <img src="img/d6/shinkansen.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>12:30 · Fushimi Inari Taisha · 千本</p>
+              <img src="img/d8/fushimi.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>1:15 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>1:30 · Hanamikoji Dori · 花见小路</p>
+              <img src="img/d8/hanamikoji.jpg" width=100%></img>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>2:15 · Travel · 旅行</p>
+              <img src="img/d6/shinkansen.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>4:00 · Nagoya Castle · 名古屋城</p>
+              <img src="img/d8/nagoyacastle.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>4:45 · Travel · 旅行<p>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>5:15 · JR Central Tower · JR中央大厦<p>
+              <img src="img/d8/jrtower.jpeg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>5:45 · Travel · 旅行<p>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:00 · Oasis 21 · 绿洲21<p>
+              <img src="img/d8/oasis21.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:00 · Dinner · 晚饭<p>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:30 · Travel · 旅行<p>
+              <img src="img/d6/shinkansen.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="hotel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>10:30 · Apartment · 住处<p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+  <script src="index.js"></script>
   </div>
-
-
-
-
-  <a name="d7"></a>
-  <div class="dcontainer">
-    <p class="day">D7 - Osaka 大阪</p>
-    <img src="img/d7/weather.jpeg" width=100%></img>
-    <ul>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>10:00 · Breakfast · 早餐</p>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>11:00 · Travel · 旅行</p>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>11:30 · Osaka Castle · 大阪城</p>
-            <img src="img/d7/osakacastle.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>12:30 · Travel · 旅行</p>
-          </div>
-        </div>
-      </li>
-
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>1:00 · Shitennoji · 四天王寺</p>
-            <img src="img/d6/shitennoji.jpg" width=100%></img>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>2:00 · Travel · 旅行</p>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>2:45 · Universal Studios · 日本环球影城</p>
-            <img src="img/d7/universal.jpeg" width=100%></img>
-          </div>
-          <div class="acontainer">
-            <p>       Tempozan Giant Ferris Wheel · 日本环球影城</p>
-            <img src="img/d7/tempozan.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>6:30 · Travel · 旅行<p>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>7:15 · Dotonbori · 道顿堀<p>
-            <img src="img/d6/dotonbori.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>7:15 · Dinner · 晚饭<p>
-          </div>
-        </div>
-      </li>
-      <li class="hotel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>9:00 · Apartment · 住处<p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-
-  <a name="d8"></a>
-  <div class="dcontainer">
-    <p class="day">D8 - Kyoto and Nagoya 京都和名古屋</p>
-    <ul>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>10:00 · Breakfast · 早餐</p>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>11:00 · Travel · 旅行</p>
-            <img src="img/d6/shinkansen.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>12:30 · Fushimi Inari Taisha · 千本鸟居</p>
-            <img src="img/d8/fushimi.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>1:15 · Travel · 旅行</p>
-          </div>
-        </div>
-      </li>
-
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>1:30 · Hanamikoji Dori · 花见小路</p>
-            <img src="img/d8/hanamikoji.jpg" width=100%></img>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>2:15 · Travel · 旅行</p>
-            <img src="img/d6/shinkansen.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>4:00 · Nagoya Castle · 名古屋城</p>
-            <img src="img/d8/nagoyacastle.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>4:45 · Travel · 旅行<p>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>5:15 · JR Central Tower · JR中央大厦<p>
-            <img src="img/d8/jrtower.jpeg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>5:45 · Travel · 旅行<p>
-          </div>
-        </div>
-      </li>
-      <li class="flag">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>6:00 · Oasis 21 · 绿洲21<p>
-            <img src="img/d8/oasis21.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="food">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>6:00 · Dinner · 晚饭<p>
-          </div>
-        </div>
-      </li>
-      <li class="travel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>8:30 · Travel · 旅行<p>
-            <img src="img/d6/shinkansen.jpg" width=100%></img>
-          </div>
-        </div>
-      </li>
-      <li class="hotel">
-        <div class="tcontainer">
-          <div class="acontainer">
-            <p>10:30 · Apartment · 住处<p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-
-
-
-<script src="index.js"></script>
 </body>
 </html>
