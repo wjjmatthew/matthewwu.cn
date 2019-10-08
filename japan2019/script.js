@@ -1,3 +1,4 @@
+
 document.getElementById("day-3-button").addEventListener("click", function(){
   document.getElementById("mainpage").style.display = "block";
   document.getElementById("splash").style.display = "none";
@@ -51,5 +52,11 @@ document.getElementById("day-10-button").addEventListener("click", function(){
   document.getElementById("mainpage").style.display = "block";
   document.getElementById("splash").style.display = "none";
   document.getElementById("body").style.backgroundColor = "#FFFFFF";
-  window.location.href="#d10";
+  window.location.href="";
+});
+
+document.getElementById("bottom-banner-container").addEventListener("click", function(){
+  document.getElementById("splash").style.display = "block";
+  document.getElementById("mainpage").style.display = "none";
+  document.getElementById("body").style.backgroundColor = "#0080FF";
 });

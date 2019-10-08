@@ -12,8 +12,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <div id="splash">
     <script>
-    document.getElementById("splash").style.display = "none";
-    document.getElementById("body").style.backgroundColor = "#FFFFFF";
+  //  document.getElementById("splash").style.display = "none";
+  //  document.getElementById("body").style.backgroundColor = "#FFFFFF";
     </script>
       <div id="titlediv">
         <p id="title">日本 2019</p>
@@ -55,26 +55,23 @@
               </div>
               <div class="day-button-splash-seperator"></div>
               <div class="day-button-splash" id="day-10-button">
-                <p class="dbuttontext">第十天</p>
+                <p class="dbuttontext">第十天 - 没有</p>
               </div>
             </div>
           </div>
         </div>
-    </div>
+      </div>
     <div id="bottom-div">
       <p class="bottom-div-text">网站：Matthew Wu</p>
       <p class="bottom-div-text">www.matthewwu.cn/japan2019</p>
-    </div
-
-
-    <script src="script.js"></script>
+    </div>
   </div>
 
 
 
   <div id="mainpage">
     <script>
-    document.getElementById("mainpage").style.display = "block";
+    document.getElementById("mainpage").style.display = "none";
     </script>
     <div id="titlediv">
       <img src="img/splash.jpg" width=100%></img>
@@ -135,8 +132,20 @@
     </div>
 
     <div id="seperator-row"></div>
+
+
+
+
+
+
+    <script>
+    document.getElementById("dayselection").style.display = "none";
+    </script>
+
+
+
     <a name="d3"></a>
-    <div class="dcontainer">
+    <div class="dcontainer" id="day-3-container">
       <p class="day">D3 - Mt Fuji 富士山</p>
       <ul>
         <li class="travel">
@@ -209,12 +218,9 @@
     </div>
 
     <a id="d4"></a>
-    <div class="dcontainer">
+    <div class="dcontainer" id="day-4-container">
       <p class="day">D4 - Tokyo Disneyland 东京迪士尼乐园</p>
-    -->  <div>
-        <div id="linea">
-        </div>
-      </div>
+        <div id="linea"></div>
 
       <ul>
         <li class="travel">
@@ -325,7 +331,7 @@
     </div>
 
     <a name="d5"></a>
-    <div class="dcontainer">
+    <div class="dcontainer" id="day-5-container">
       <p class="day">D5 - Tokyo 东京</p>
       <ul>
         <li class="travel">
@@ -399,7 +405,7 @@
     </div>
 
     <a name="d6"></a>
-    <div class="dcontainer">
+    <div class="dcontainer" id="day-6-container">
       <p class="day">D6 - Tokyo and Osaka 东京和大阪</p>
       <ul>
         <li class="travel">
@@ -436,7 +442,8 @@
         <li class="travel">
           <div class="tcontainer">
             <div class="acontainer">
-              <p>7:00 · Travel · </p>
+              <p>7:00 · Travel · 旅行</p>
+            </div>
           </div>
         </li>
         <li class="flag">
@@ -457,8 +464,8 @@
         <li class="flag">
           <div class="tcontainer">
             <div class="acontainer">
-              <p>8:15 · Dotonbori · 道顿堀<p>
-                <img src="img/d6/dotonbori.jpg" width=100%></img>
+              <p>8:15 · Dotonbori · 道顿堀</p>
+              <img src="img/d6/dotonbori.jpg" width=100%></img>
             </div>
           </div>
         </li>
@@ -476,7 +483,7 @@
 
 
     <a name="d7"></a>
-    <div class="dcontainer">
+    <div class="dcontainer" id="day-7-container">
       <p class="day">D7 - Osaka 大阪</p>
       <img src="img/d7/weather.jpeg" width=100%></img>
       <ul>
@@ -515,6 +522,7 @@
             <div class="acontainer">
               <p>1:00 · Shitennoji · 四天王寺</p>
               <img src="img/d6/shitennoji.jpg" width=100%></img>
+            </div>
           </div>
         </li>
         <li class="travel">
@@ -546,7 +554,7 @@
         <li class="flag">
           <div class="tcontainer">
             <div class="acontainer">
-              <p>7:15 · Dotonbori · 道顿堀<p>
+              <p>7:15 · Dotonbori · 道顿堀</p>
               <img src="img/d6/dotonbori.jpg" width=100%></img>
             </div>
           </div>
@@ -570,7 +578,7 @@
 
 
     <a name="d8"></a>
-    <div class="dcontainer">
+    <div class="dcontainer" id="day-8-container">
       <p class="day">D8 - Kyoto and Nagoya 京都和名古屋</p>
       <ul>
         <li class="food">
@@ -609,6 +617,7 @@
             <div class="acontainer">
               <p>1:30 · Hanamikoji Dori · 花见小路</p>
               <img src="img/d8/hanamikoji.jpg" width=100%></img>
+            </div>
           </div>
         </li>
         <li class="travel">
@@ -637,7 +646,7 @@
         <li class="flag">
           <div class="tcontainer">
             <div class="acontainer">
-              <p>5:15 · JR Central Tower · JR中央大厦<p>
+              <p>5:15 · JR Central Tower · JR中央大厦</p>
               <img src="img/d8/jrtower.jpeg" width=100%></img>
             </div>
           </div>
@@ -652,7 +661,7 @@
         <li class="flag">
           <div class="tcontainer">
             <div class="acontainer">
-              <p>6:00 · Oasis 21 · 绿洲21<p>
+              <p>6:00 · Oasis 21 · 绿洲21</p>
               <img src="img/d8/oasis21.jpg" width=100%></img>
             </div>
           </div>
@@ -667,7 +676,7 @@
         <li class="travel">
           <div class="tcontainer">
             <div class="acontainer">
-              <p>8:30 · Travel · 旅行<p>
+              <p>8:30 · Travel · 旅行</p>
               <img src="img/d6/shinkansen.jpg" width=100%></img>
             </div>
           </div>
@@ -683,7 +692,125 @@
     </div>
 
 
-  <script src="index.js"></script>
+
+
+    <a name="d9"></a>
+    <div class="dcontainer" id="day-9-container">
+      <p class="day">D9 - Nara and Osaka - 奈良和大阪</p>
+      <ul>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>10:00 · Breakfast · 早餐</p>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>11:00 · Travel · 旅行</p>
+              <img src="img/d6/shinkansen.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>12:30 · Nara Park · 奈良公园</p>
+              <img src="img/d9/narapark.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>      · Todaiji · 东大寺</p>
+              <img src="img/d9/todaiji.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>2:30 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="flag">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>4:30 · Umeda Sky Observatory · 梅田蓝天大厦</p>
+              <img src="img/d9/umedasky.jpeg" width=100%></img>
+            </div>
+          </div>
+        </li>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>6:00 · Dinner · 晚饭</p>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>7:30 · Travel · 旅行</p>
+            </div>
+          </div>
+        </li>
+        <li class="hotel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>8:30 · Apartment · 住处</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <a id="d10"></a>
+    <div class="dcontainer" id="day-10-container">
+      <p class="day">D10</p>
+      <ul>
+        <li class="food">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>10:00 · Breakfast · 早餐</p>
+            </div>
+          </div>
+        </li>
+        <li class="travel">
+          <div class="tcontainer">
+            <div class="acontainer">
+              <p>11:00 · Travel · 旅行</p>
+              <img src="img/d6/shinkansen.jpg" width=100%></img>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+
+
+
+
+
+
+
   </div>
+</div>
+
+
+<div id="bottom-banner-container">
+  <div id="bottom-banner">
+    <p id="bottom-banner-text">选择日期</p>
+  </div>
+</div>
+
+
+<script src="index.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
