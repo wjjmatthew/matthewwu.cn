@@ -1,0 +1,33 @@
+body{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+.page1{
+  height: 100%;
+  width: 100%;
+}
+.background{
+  position: absolute;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  background-image: url('IMG_0244.JPG');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-weight: 300;
+  font-size: 32pt;
+  color: #ffffff;
+}
+.main p{
+  padding: 0;
+  margin: 0;
+}
